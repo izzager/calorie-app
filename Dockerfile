@@ -4,7 +4,7 @@ FROM ${JAVA_IMAGE}
 WORKDIR /opt/application
 USER nobody
 
-RUN mkdir -p ~/.postgresql
+RUN mkdir postgresql
 COPY ${DB_ROOT_FILE_PATH} /opt/application/postgresql/root.crt
 
 COPY target/*.jar /opt/application/application.jar
