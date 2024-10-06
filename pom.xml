@@ -12,8 +12,7 @@
 
     <groupId>ru.meetup</groupId>
     <artifactId>calorie-counter</artifactId>
-    <version>1.1.0</version>
-
+    <version>1.1.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -23,6 +22,7 @@
         <springdoc.version>2.5.0</springdoc.version>
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
         <lombok.version>1.18.32</lombok.version>
+        <start-class>ru.etv.testproject.TestprojectApplication</start-class>
     </properties>
 
     <dependencies>
