@@ -1,4 +1,4 @@
-ARG DB_ROOT_FILE_PATH=yc-db/db-root.crt
+ARG DB_ROOT_FILE_PATH=root.crt
 ARG JAVA_IMAGE=openjdk:17-oracle
 FROM ${JAVA_IMAGE}
 WORKDIR /opt/application
