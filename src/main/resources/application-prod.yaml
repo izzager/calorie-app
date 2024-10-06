@@ -12,3 +12,6 @@ spring:
     properties:
       ssl: true
       sslMode: VERIFY_CA
+  jpa:
+    hibernate:
+      ddl-auto: update
